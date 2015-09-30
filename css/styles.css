@@ -1,0 +1,11 @@
+﻿body {
+    font-family: 'Segoe UI';
+}
+
+p {
+    margin: 0;
+}
+
+#TextControl1 {
+    margin-top: 10px;
+}

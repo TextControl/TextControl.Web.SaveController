@@ -1,2 +1,2 @@
-# TextControl.Web.SaveController
-This sample shows how to pass a saved document to the MVC controller using an HttpPost method
+# Web.TextControl.MVC.Tutorial
+Creating an MVC application with Razor
