@@ -23,7 +23,7 @@ namespace tx_mvc_tutorial
 
             // set the POST data
             var postData = "documentName=" + TextBox1.Text;
-                postData += "&document=" + RTFDocument;
+                postData += "&document=" + Server.HtmlEncode(RTFDocument);
             
             // encode the data as an byte[] array
             var data = Encoding.ASCII.GetBytes(postData);
